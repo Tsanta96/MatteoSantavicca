@@ -1,0 +1,35 @@
+.text-primary {
+    color: red;
+}
+
+.projects-name-and-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects-name-and-logo > h4{
+    margin-top: 10px;
+}
+
+.space-racer-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.soundWave-img {
+    width: 65px;
+    height: 50px;
+    margin-right: 40px;
+}
+
+.meTube-img {
+    width: 140px;
+    height: 50px;
+}
+
+.musicBox-img {
+    width: 130px;
+    height: 50px;
+}
