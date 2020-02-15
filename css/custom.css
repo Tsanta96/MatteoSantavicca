@@ -1,6 +1,26 @@
-.text-primary {
-    color: red;
+.bg-primary1 {
+    background-image: linear-gradient(rgb(0, 0, 129), rgb(0, 0, 190));
 }
+
+.text-primary1 {
+    color: rgb(85, 85, 255);
+}
+
+.email {
+    color: rgb(85, 85, 255);
+}
+
+.projects-links {
+    color: rgb(85, 85, 255);
+}
+
+
+body {
+    background-image: linear-gradient(white, rgb(255, 241, 202));
+    /* background-color: rgb(255, 243, 211) */
+}
+
+/* Projects section ----------------------------------------------------------*/
 
 .projects-name-and-logo {
     display: flex;
