@@ -20,6 +20,20 @@ body {
     /* background-color: rgb(255, 243, 211) */
 }
 
+.social-icons-and-work-statement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.work-statement {
+    border: 2px solid blue;
+    padding: 5px;
+    align-self: center;
+    border-radius: 5px;
+    color: #c97b5e;
+}
+
 /* Projects section ----------------------------------------------------------*/
 
 .projects-name-and-logo {
