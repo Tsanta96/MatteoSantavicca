@@ -1,86 +1,92 @@
 .bg-primary1 {
-    background-image: linear-gradient(rgb(0, 0, 129), rgb(0, 0, 190));
+  background-image: linear-gradient(rgb(0, 0, 129), rgb(0, 0, 190));
 }
 
 .text-primary1 {
-    color: rgb(85, 85, 255);
+  color: rgb(85, 85, 255);
 }
 
 .email {
-    color: rgb(85, 85, 255);
+  color: rgb(85, 85, 255);
 }
 
 .projects-links {
-    color: rgb(85, 85, 255);
+  color: rgb(85, 85, 255);
 }
 
 .projects-links-offline {
-    color: rgb(245, 80, 80);
+  color: rgb(245, 80, 80);
 }
 
 body {
-    background-image: linear-gradient(white, rgb(255, 241, 202));
-    /* background-color: rgb(255, 243, 211) */
+  background-image: linear-gradient(white, rgb(255, 241, 202));
+  /* background-color: rgb(255, 243, 211) */
 }
 
 .social-icons-and-work-statement {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .work-statement {
-    border: 2px solid blue;
-    padding: 5px;
-    align-self: center;
-    border-radius: 5px;
-    color: #c97b5e;
+  border: 2px solid blue;
+  padding: 5px;
+  align-self: center;
+  border-radius: 5px;
+  color: #c97b5e;
 }
 
 /* Projects section ----------------------------------------------------------*/
 
 .projects-name-and-logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.projects-name-and-logo > h4{
-    margin-top: 10px;
+.projects-name-and-logo > h4 {
+  margin-top: 10px;
 }
 
 .space-racer-img {
-    width: 50px;
-    height: 50px;
-    margin-right: 50px;
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
 }
 
 .soundWave-img {
-    width: 65px;
-    height: 50px;
-    margin-right: 40px;
+  width: 65px;
+  height: 50px;
+  margin-right: 40px;
 }
 
 .fanquack-img {
-    width: 65px;
-    height: 50px;
-    margin-right: 40px;
-    background-color: #3536d5;
-    padding: 5px;
+  width: 65px;
+  height: 50px;
+  margin-right: 40px;
+  background-color: #3536d5;
+  padding: 5px;
 }
 
 .peach-img {
-    width: 65px;
-    height: 50px;
-    margin-right: 40px;
+  width: 65px;
+  height: 50px;
+  margin-right: 40px;
 }
 
 .meTube-img {
-    width: 140px;
-    height: 50px;
+  width: 140px;
+  height: 50px;
 }
 
 .musicBox-img {
-    width: 130px;
-    height: 50px;
+  width: 130px;
+  height: 50px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
 }
